@@ -1,0 +1,15 @@
+void setup () {
+  size (400, 400);
+  background (200);
+}
+
+void draw() {
+  fill(0, 0, 255);
+  ellipse (300, 300, 150, 150);
+  fill(0, 255, 0);
+  rect(230, 50, 140, 140);
+  fill (30);
+  textSize (13);
+  text ("Esto es un ellipse azul:", 40, 300);
+  text ("Esto es un cuadrado verde:", 40, 125);
+}
